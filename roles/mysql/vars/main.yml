@@ -15,3 +15,8 @@ user_name: iroha
 
 user_pass: iroha
 
+queries:
+  - create_table_controls.sql
+  - create_table_iroha_datas.sql
+  - create_table_users.sql
+
