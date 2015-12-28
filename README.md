@@ -5,7 +5,7 @@
 - centos64のboxをあらかじめvagrantで準備しておく
 - リポジトリルートでvagrant upを行ってVMを作成する
 - vagrantのssh設定を，ローカルの.ssh/configに追加しておく
-　　- `vagrant ssh-config >> ~/.ssh/config`
+  - `vagrant ssh-config >> ~/.ssh/config`
 
 ### 実行
 - ansibleのplaybookを実行する
