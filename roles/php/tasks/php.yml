@@ -1,5 +1,5 @@
 ---
-- name: installs php modules
+- name: install php modules
   yum: name={{ item }} state=present
   tags: php
   with_items:
@@ -9,7 +9,7 @@
     - php-fpm
   tags: php
 
-- name: copies php.ini
+- name: copy php.ini
   template: src=php.ini.j2 dest=/etc/php.ini owner=root group=root mode=644
 
 - name: add php-fpm to service
